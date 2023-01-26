@@ -1,0 +1,1 @@
+export PATH="$PATH:/system/usr/share/gcc/bin:/system/usr/share/gcc/aarch64-linux-android/bin:/system/usr/share/gcc/libexec/gcc/aarch64-linux-android/10.2.0"
