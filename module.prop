@@ -1,4 +1,4 @@
-id=gcc_on_amdroid
+id=gcc_on_android
 name=GCC Toolchain
 version=1.0.0
 versionCode=100
