@@ -17,7 +17,7 @@ GCC Toolchain is usable to build many things, such as native modules for Node.js
 
 Please do that via [Fox's Magisk Module Manager][foxm].
 
-## Usage with [Node.js][nodejs]
+## Usage with <a href="https://github.com/Magisk-Modules-Alt-Repo/node" noIcon>Node.js</a>
 
 There is currently no binary of Python for Android, so we need Python from [Termux][termux]
 
