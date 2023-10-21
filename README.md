@@ -1,6 +1,7 @@
 [termux]: https://github.com/termux/termux-app
 [mkshrc]: https://github.com/Magisk-Modules-Alt-Repo/mkshrc
-[foxm]: https://github.com/Fox2Code/FoxMagiskModuleManager
+[mmrl]: https://github.com/DerGoogler/MMRL
+[mmrlcli]: https://github.com/DerGoogler/MMRL-CLI
 [nodejs]: https://github.com/Magisk-Modules-Alt-Repo/node
 [a_brain]: https://www.google.com/search?q=What+is+a+brain%3F
 
@@ -15,7 +16,13 @@ GCC Toolchain is usable to build many things, such as native modules for Node.js
 
 ## Installation
 
-Please do that via [Fox's Magisk Module Manager][foxm].
+Via [MMRL][mmrl] or via the [MMRL CLI][mmrlcli]
+
+```shell
+mmrl install https://github.com/Googlers-Repo/gcc/releases/download/v1.0.0/gcc.zip -yr
+```
+
+> Installs GCC with the requirements
 
 ## Usage with <a href="https://github.com/Magisk-Modules-Alt-Repo/node" noIcon>Node.js</a>
 
