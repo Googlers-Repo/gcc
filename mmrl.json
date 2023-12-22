@@ -1,3 +1,9 @@
 {
-  "require": ["mkshrc"]
+    "author": "DerGoogler",
+    "logo": "https://www.incredibuild.com/wp-content/uploads/2021/03/GCC01.png",
+    "categories": [
+        "Coding",
+        "Miscellaneous"
+    ],
+    "require": ["mkshrc"]
 }
