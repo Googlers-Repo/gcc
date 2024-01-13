@@ -5,3 +5,5 @@ versionCode=100
 author=Der_Googler
 description=GCC Toolchain is usable to build many things, such as native modules for Node.js
 mmrlAuthor=FGPqXIzgATOwXrThZ7duE3AJnet2
+
+noIndex=true
