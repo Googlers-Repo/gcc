@@ -1,0 +1,18 @@
+{
+    "license": "GPL-3.0",
+    "support": "https://github.com/Googlers-Repo/gcc/issues",
+    "icon": "https://raw.githubusercontent.com/Googlers-Repo/gcc/master/assets/icon.png",
+    "categories": [
+        "System",
+        "Coding"
+    ],
+    "require": [
+        "mkshrc"
+    ],
+    "note": {
+        "color": "blue",
+        "title": "Beta",
+        "message": "This module is sill in it's beta, so please don't complain about bugs etc. Please be aware that this module depends on Systemless Mkshrc."
+    },
+    "readme": "https://raw.githubusercontent.com/Googlers-Repo/gcc/master/README.md"
+}
