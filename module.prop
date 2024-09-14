@@ -1,6 +1,6 @@
 id=gcc_on_android
 name=GCC Toolchain
-version=1.0.1
-versionCode=101
+version=1.0.2
+versionCode=102
 author=Der_Googler
 description=GCC Toolchain is usable to build many things, such as native modules for Node.js

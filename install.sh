@@ -30,9 +30,12 @@ set_permissions() {
 
     for folder in $__BASE/bin $__BASE/aarch64-linux-android/bin $__BASE/libexec/gcc/aarch64-linux-android/10.2.0; do
         if [ -d "$folder" ]; then
-            for bin in $(echo $(ls $folder/*/**)); do
-                if [ -f "$bin" ]; then
-                    set_perm "$__BASE/$bin" 0 0 0755
+            find "$folder" -type f | while read -r bin; do
+                file_type=$(file "$bin")
+                if [[ "$file_type" == *"shell script"* ]]; then
+                    set_perm "$bin" 0 2000 0755
+                elif [[ "$file_type" == *"ELF"* ]]; then
+                    set_perm "$bin" 0 2000 0755
                 fi
             done
         fi
